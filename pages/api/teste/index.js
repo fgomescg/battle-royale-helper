@@ -1,7 +1,7 @@
-import { NextApiRequest, NextApiResponse } from 'next';
 
-export default async function Teste(req, res) {
-    res.json(
+export default async function Teste(request, response) {
+    response.status(200);
+    response.json(
         {
             "date": Date.now(),
             "nome": "TESTE"            
