@@ -1,5 +1,5 @@
 function Home () {
-    return <div>Battle Royale Helper</div>
+    return <div>Monique é muito linda !</div>
 }
 
 export default Home
