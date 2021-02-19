@@ -4,7 +4,7 @@ export default async function Teste(request, response) {
     response.json(
         {
             "date": Date.now().toLocaleString(),
-            "nome": "TESTE"            
+            "nome": "TESTE GIT"            
         }
     )
 }
